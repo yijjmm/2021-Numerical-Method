@@ -43,3 +43,4 @@ z =
 >> subplot(1, 2, 1), plot(x, y, 'o--r', 'linewidth', 4), axis square, ... % 그래프 따로 나눠서 표현. 1: sin, 2: cos, 그래프 가로세로 square
 subplot (1, 2, 2), plot(x, z, 'p:b', 'linewidth', 4), axis square
 
+>> plot3(y, z, x, 'p:b', 'linewidth', 4) % 3차원 그래프
