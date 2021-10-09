@@ -32,7 +32,7 @@ z =
   15 ~ 17번 열
     0.7071    0.9239    1.0000
 >>
->> plot(x, y, 'o--r', x, z, 'p : b', 'linewidth', 4) % sin: red with circle, cos: blue with polaris
+>> plot(x, y, 'o--r', x, z, 'p : b', 'linewidth', 4) % sin: red with circle, cos: blue with pentagram
 
 >> plot(x, y, 'o--r', 'linewidth', 4)
 >> hold on % 중첩시키기 위해 그래프 초기화 방지
