@@ -8,6 +8,8 @@ function pengsu()
 
     fprintf('%d + %d = %d\n', a, b, c); % 출력. printf 역할. fprintf 자체가 출력을 하기에 ;의 여부는 상관X
     fprintf('%d + %d = %d\n', a, b, d);
+    
+    % disp(c), disp(d) % c 표현 후 next line으로 바뀌어 d 표현. disp(c, d) 안됨! 
 end
 
 function z = sub1(x, y) 
