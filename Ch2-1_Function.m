@@ -48,3 +48,43 @@ n =
     -1
 >> sub1(1,2)
 'sub1'은(는) 인식할 수 없는 함수 또는 변수입니다. 
+
+=====================================================
+
+%Function 표현 3
+
+function [c, d] = pengsu(a, b)
+    if nargin <2, b = 2; end % c++ 문법 number of argument input. argument 0 or 1개만 넣을 경우 오류 대비
+    if nargin <1, a = 1; end
+    
+    c = sub1 (a, b);
+    d = sub2 (a, b);
+end
+
+function z = sub1(x, y)
+    z = x + y;
+end
+
+function z = sub2(x, y)
+    z = x - y;
+end
+
+----------------------------------------------------
+
+% 명령창 호출
+
+>> [m, n] = pengsu(1,2)
+m =
+     3
+n =
+    -1
+>> [m, n] = pengsu(1)
+m =
+     3
+n =
+    -1
+>> [m, n] = pengsu()
+m =
+     3
+n =
+    -1
