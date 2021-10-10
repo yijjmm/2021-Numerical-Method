@@ -24,7 +24,7 @@ n =
   
 %Function 표현 2
   
-function [c, d] = pengsu(a, b) % 메인 함수
+function [c, d] = pengsu(a, b) % 메인 함수. 명령창에서 접근 가능 한 함수는 파일명과 동일한 메인함수가 유일하다.
     c = sub1 (a, b);
     d = sub2 (a, b);
 end
