@@ -1,8 +1,8 @@
 %Function 표현 4
 
 function pengsu() 
-    a = input ("first?"); % 첫번째 값을 a에 입력. scanf 역할
-    b = input ("second?");
+    a = input ("first? "); % 첫번째 값을 a에 입력. scanf 역할
+    b = input ("second? ");
     c = sub1 (a, b);
     d = sub2 (a, b);
 
