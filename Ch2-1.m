@@ -11,7 +11,7 @@ end
 ans =
      3
   
->> [m, n] = pengsu(1,2)
+>> [m, n] = pengsu(1,2) % []과 () 내 인수 개수 
 m =
      3
 n =
