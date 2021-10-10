@@ -6,7 +6,7 @@ function pengsu()
     c = sub1 (a, b);
     d = sub2 (a, b);
 
-    fprintf('%d + %d = %d\n', a, b, c); % 출력. printf 역할
+    fprintf('%d + %d = %d\n', a, b, c); % 출력. printf 역할. fprintf 자체가 출력을 하기에 ;의 여부는 상관X
     fprintf('%d + %d = %d\n', a, b, d);
 end
 
