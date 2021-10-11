@@ -47,3 +47,20 @@ m =
      5
 n =
     -1
+
+======================================
+
+#varargin (2)
+
+function [c, d] = pingu (f, g, a, varargin)
+    c = f(a, varargin{:});
+    d = g(a, varargin{:});
+end
+
+----------------------------------
+
+>> [m, n] = pingu(f1, f2, 2, 3)
+m =
+     5
+n =
+    -1
